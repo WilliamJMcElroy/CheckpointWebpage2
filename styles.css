@@ -1,0 +1,194 @@
+:root {
+    --maintext: rgb(226, 226, 226);
+    --goldstar: rgb(196, 154, 4);
+}
+
+main {
+    padding: 0px !important;
+}
+
+body {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+header {
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 6vh;
+}
+
+.logo-small {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+}
+
+.hero-img {
+    width: 100%;
+    border: 6px groove black;
+    border-radius: 15%;
+    height: fit-content;
+}
+
+h2 {
+    color: rgb(146, 146, 146);
+}
+
+body {
+    background-image: url("https://th.bing.com/th/id/R.1f76deca7e3422fa519791f6e2a4c066?rik=SIPmMoUoFhdydw&pid=ImgRaw&r=0");
+    background-size: cover;
+}
+
+.greenText {
+    color: green !important;
+    font-size: large;
+    font-style: italic;
+}
+
+.infoset {
+    background-color: rgba(32, 29, 29, 0.655) !important;
+    color: rgb(186, 186, 186) !important;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.aboutUs {
+    background-color: black;
+    justify-content: left;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 36px;
+    border-radius: 15%;
+    height: 100%;
+    width: fit-content;
+}
+
+
+.hero-text {
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+}
+
+.borderbottomCustom {
+    border-radius: 5%;
+    align-items: center;
+}
+
+.otherBg {
+    background-image: url("https://th.bing.com/th/id/R.0f419c5d2f1fb0bf82c09e09d72278fd?rik=uSlmMYQiCUgvCw&pid=ImgRaw&r=0");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+.maintext {
+    color: var(--maintext);
+}
+
+.goldstar {
+    color: var(--goldstar);
+}
+
+.imageSet1 {
+    height: 40vh;
+    width: fit-content;
+}
+
+.imageSet2 {
+    height: 30vh;
+    width: fit-content;
+}
+
+.custom-height {
+    margin: 0;
+    padding-right: 0;
+    margin-top: 20px;
+
+}
+
+.custom-height2 {
+    transform: scale(110%);
+}
+
+/* breakrow set */
+
+.breakrowHouse {
+    background-color: rgba(28, 18, 9, .6);
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    /* width: 100vw; */
+}
+
+.breakrow {
+    background-color: rgb(44, 29, 14, .85);
+
+}
+
+.popOut {
+    position: absolute;
+    height: 10vh;
+    top: -5vh;
+    left: 65vh;
+    border: none;
+    padding: auto;
+    margin: auto;
+    width: fit-content;
+}
+
+.popOutImg {
+    height: 15vh;
+
+
+}
+
+/* menu css conditioning */
+.menu {
+    width: 80%;
+    background-color: rgb(118, 97, 69);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 400px;
+    align-items: center;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: rgb(14, 73, 25);
+}
+
+.flavor {
+    text-align: center;
+
+}
+
+.price {
+    text-align: center;
+}
+
+.problemRow {
+    width: 98%;
+    height: 98%;
+}
+
+.card {
+    background: none;
+}
+
+@media(max-width:768px) {
+    .popOut {
+        position: relative;
+        display: flex;
+        height: 0;
+        top: 0;
+        left: 0;
+    }
+}
